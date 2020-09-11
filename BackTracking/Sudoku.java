@@ -24,7 +24,7 @@ public class Sudoku{
         for(char []temp : board){
             System.out.println(Arrays.toString(temp));
         }
-        System.out.println("-------------------------------------------------");
+        System.out.println(" ------           ------          -------       ");
         if(row==0&&col==m)return true;
         if(board[row][col]!='.'){
             if(row==n-1)col+=1;
